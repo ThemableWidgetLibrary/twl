@@ -72,7 +72,7 @@ public class InputMapTest {
                 + "    <action name=\"openQuestLog\">cmd Q</action>\n"
                 + "    <action name=\"quit\">meta X</action>\n"
                 + "    <action name=\"run\">LSHIFT</action>\n"
-                + "    <action name=\"console\">typed î</action>\n"
+                + "    <action name=\"console\">typed</action>\n"
                 + "</inputMapDef>";
         InputMap im = parse(input);
         String result = toString(im);
